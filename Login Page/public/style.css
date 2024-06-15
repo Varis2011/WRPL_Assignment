@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* App styles */
+.App {
+    text-align: center;
+  }
+  
+  /* Login and Sign Up form styles */
+  .form-container {
+    margin: 20px auto;
+    width: 300px;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type='text'],
+  input[type='password'],
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }
+  
